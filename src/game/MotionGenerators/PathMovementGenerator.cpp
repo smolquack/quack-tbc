@@ -361,7 +361,7 @@ bool TaxiMovementGenerator::Update(Unit& unit, const uint32& diff)
     return (movement || Resume(player));
 }
 
-#define TAXI_FLIGHT_SPEED        32.0f
+#define TAXI_FLIGHT_SPEED        64.0f
 
 bool TaxiMovementGenerator::Move(Unit& unit)
 {
